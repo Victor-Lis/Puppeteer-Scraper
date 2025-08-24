@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrap": "node scraper.js",
+    "docker": "docker-compose up -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "mongodb": "^6.18.0",
+    "puppeteer": "^24.17.0"
+  }
+}
